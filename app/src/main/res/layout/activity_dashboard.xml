@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DashboardActivity">
+
+    <FrameLayout
+        android:id="@+id/frameDashboardContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></FrameLayout>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/coodinatorView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:fitsSystemWindows="false"
+        android:clickable="false"
+        android:focusable="false"
+        >
+
+        <com.google.android.material.bottomappbar.BottomAppBar
+            android:id="@+id/bottomApp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            app:fabAlignmentMode="center"
+            app:fabCradleRoundedCornerRadius="30dp"
+            android:clickable="false"
+            android:theme="@style/AppTheme.BottomAppBar"
+            app:contentInsetStart="0dp"
+            app:contentInsetStartWithNavigation="0dp"
+            android:background="@android:color/transparent"
+            >
+
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:id="@+id/bottomNav"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                app:labelVisibilityMode="unlabeled"
+                app:menu="@menu/menu_main"
+                android:outlineAmbientShadowColor="@android:color/transparent"
+                android:outlineSpotShadowColor="@android:color/transparent"
+                />
+
+
+        </com.google.android.material.bottomappbar.BottomAppBar>
+
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabAddPost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:backgroundTint="@color/colorPrimary"
+            android:src="@drawable/ic_baseline_add_24"
+            app:fabSize="auto"
+            app:layout_anchor="@id/bottomApp"
+            />
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Blog App</string>
+    <string name="app_expresion">Construyendo expresion</string>
+    <string name="on_board_skip">Saltar</string>
+    <string name="on_board_next">Siguiente</string>
+    <string name="on_board_finish">Finalizar</string>
+
+
+    <string name="title_one">Aprende</string>
+    <string name="desc_title_one">Lorem sndjasndjkasnjkfa ushfuih uifhasuih fuiahfuiah suifhas</string>
+    <string name="title_two">Crea</string>
+    <string name="desc_title_two">Lorem sndjasndjkasnjkfa ushfuih uifhasuih fuiahfuiah suifhas</string>
+    <string name="title_tree">Disfruta</string>
+    <string name="desc_title_tree">Lorem sndjasndjkasnjkfa ushfuih uifhasuih fuiahfuiah suifhas</string>
+    <string name="email">Correo electronico</string>
+    <string name="name">Nombre</string>
+    <string name="password">Contraseña</string>
+    <string name="passwordConfirm">Confirmar contraseña</string>
+    <string name="signin">Iniciar Sesion</string>
+    <string name="signup">Registrarse</string>
+    <string name="donthaveaccount">No tengo cuenta</string>
+    <string name="haveaccount">Tiene cuenta?</string>
+
+    <string name="email_required">El correo es requerido</string>
+    <string name="email_request">Correo no valido</string>
+    <string name="password_required">La  contraseña es requerida</string>
+    <string name="name_required">El nombre es requerido</string>
+    <string name="lastname_required">El apellido es requerido</string>
+    <string name="passwordConfirm_required">Se requiere confirmacion</string>
+    <string name="password_length">Se requiren minimo 8 caracteres</string>
+    <string name="passwordConfirmValidation">Las contraseñas no coinciden</string>
+
+    <string name="successLogin">Inicio de sesion exitoso!!</string>
+    <string name="successRegister">Registrado correctamente</string>
+    <string name="failLogin">No se logro inicar sesion</string>
+    <string name="failRegister">No se registro</string>
+    <string name="loggin">Ingresando...</string>
+    <string name="registering">Registrando...</string>
+    <string name="profile">Perfil</string>
+    <string name="lastname">Apellido</string>
+    <string name="cont">Continuar</string>
+    <string name="uploadPhoto">Subir Foto</string>
+    <string name="desc_required">La descripcion es requerida</string>
+    <string name="desc_hint">Descripción de su publicación</string>
+
+    <string name="likes">Me gusta</string>
+    <string name="comments">Comentarios</string>
+    <string name="newpost">Nueva Publicación</string>
+    <string name="changephoto">Cambiar foto</string>
+    <string name="post">Publicar</string>
+    <string name="changePhoto">Cambiar foto</string>
+    <string name="posted">Publicado</string>
+</resources>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    android:orientation="vertical"
+    tools:context=".ProfileActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:layout_marginBottom="30dp"
+        android:gravity="center_horizontal"
+        android:text="@string/profile"
+        android:fontFamily="@font/poppins"
+        />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgUserProfile"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@color/colorPrimary"
+        android:layout_marginBottom="10dp"
+        android:layout_centerInParent="true"
+        />
+
+    <Button
+        android:id="@+id/btnSelectPhoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorWhite"
+        android:text="@string/uploadPhoto"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="@font/poppins"
+        android:elevation="10dp"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txtLayoutNameProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="6dp"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:background="@android:color/transparent"
+            android:id="@+id/txtNameProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/name"
+            android:inputType="textPersonName"
+            android:textSize="15sp"
+            android:fontFamily="@font/poppins"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txtLayoutLastNameProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:background="@android:color/transparent"
+            android:id="@+id/txtLastNameProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/lastname"
+            android:inputType="text"
+            android:textSize="15sp"
+            android:fontFamily="@font/poppins"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        >
+
+        <ProgressBar
+            android:id="@+id/progressBarProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            />
+
+        <Button
+            android:id="@+id/btnContinue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cont"
+            android:background="@drawable/btn_primary"
+            android:elevation="10dp"
+            android:textSize="17dp"
+            android:textAllCaps="false"
+            android:layout_marginBottom="30dp"
+            android:fontFamily="@font/poppins"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

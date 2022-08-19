@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Blog App</string>
+    <string name="app_expresion">Construyendo expresion</string>
+    <string name="on_board_skip">Saltar</string>
+    <string name="on_board_next">Siguiente</string>
+    <string name="title_one">Aprende</string>
+    <string name="title_two">Crea</string>
+    <string name="title_tree">Disfruta</string>
+    <string name="desc_title_one">Lorem sndjasndjkasnjkfa ushfuih uifhasuih fuiahfuiah suifhas</string>
+    <string name="desc_title_two">Lorem sndjasndjkasnjkfa ushfuih uifhasuih fuiahfuiah suifhas</string>
+    <string name="desc_title_tree">Lorem sndjasndjkasnjkfa ushfuih uifhasuih fuiahfuiah suifhas</string>
+    <string name="on_board_finish">Finalizar</string>
+    <string name="email">Correo electronico</string>
+    <string name="password">Contraseña</string>
+    <string name="signin">Iniciar Sesion</string>
+    <string name="signup">Registrarse</string>
+    <string name="haveaccount">Tienes cuenta?</string>
+    <string name="donthaveaccount">No tengo cuenta</string>
+    <string name="passwordConfirm">Confirmar contraseña</string>
+    <string name="name">Nombre</string>
+    <string name="email_required">El correo es requerido</string>
+    <string name="password_required">La contraseña es requerida</string>
+    <string name="name_required">El nombre es requerido</string>
+    <string name="passwordConfirm_required">Se requiere confirmacion</string>
+    <string name="password_length">Se requiere minimo 8 caracteres</string>
+    <string name="email_request">Correo no valido</string>
+    <string name="passwordConfirmValidation">Las contraseñas no coinciden</string>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Blog App</string>
+    <string name="app_expresion">building expression</string>
+    <string name="on_board_skip">Skip</string>
+    <string name="on_board_next">Next</string>
+    <string name="title_one">Learn</string>
+    <string name="title_two">Create</string>
+    <string name="title_tree">Enjoy</string>
+    <string name="desc_title_one">Lorem sndjasndjkasnjkfa ushfuih uifhasuih fuiahfuiah suifhas</string>
+    <string name="desc_title_two">Lorem sndjasndjkasnjkfa ushfuih uifhasuih fuiahfuiah suifhas</string>
+    <string name="desc_title_tree">Lorem sndjasndjkasnjkfa ushfuih uifhasuih fuiahfuiah suifhas</string>
+    <string name="on_board_finish">Finish</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="signin">Sign In</string>
+    <string name="signup">Sign Up</string>
+    <string name="haveaccount">Already have account?</string>
+    <string name="donthaveaccount">Don\'t have account</string>
+    <string name="passwordConfirm">Password confirm</string>
+    <string name="name">Name</string>
+    <string name="email_required">The email is required</string>
+    <string name="password_required">The password is required</string>
+    <string name="name_required">The name is required</string>
+    <string name="passwordConfirm_required">This required confirmation</string>
+    <string name="password_length">Required las 8 chacter</string>
+    <string name="email_request">Invalid email</string>
+    <string name="passwordConfirmValidation">Password does not match</string>
+</resources>
