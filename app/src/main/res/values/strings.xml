@@ -50,4 +50,8 @@
     <string name="post">Publicar</string>
     <string name="changePhoto">Cambiar foto</string>
     <string name="posted">Publicado</string>
+    <string name="edit">Editar</string>
+    <string name="delete">Eliminar</string>
+    <string name="updatePost">Actualizar</string>
+    <string name="editPost">Editar Publicación</string>
 </resources>
